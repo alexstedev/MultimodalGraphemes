@@ -10,15 +10,15 @@
 
 </div>
 
-# Competition description
+## Competition description
 
-## Task formulation
+### Task formulation
 
 You’re given the image of a handwritten Bengali grapheme and are challenged to separately classify three constituent elements in the image: grapheme root, vowel diacritics, and consonant diacritics.
 
-# Approach
+## Approach
 
-## What worked
+### What worked
 
 * Model: ResNet34 with three heads
 * Head configuration: Mish -> Conv2D -> BatchNorm -> Pooling layer -> Linear
@@ -28,14 +28,14 @@ You’re given the image of a handwritten Bengali grapheme and are challenged to
 * Weights: 7-grapheme, 1-consonant, 2-vowel
 * AdamW and OneCycleWithWarmUp
 
-## What didn't work
+### What didn't work
 
 * SEResNext
 * RAdam and Over9000 optimizer
 * 3 different models instead of a single model with 3 heads
 * Postprocessing
 
-## References
+### References
 
 I've gotten references for several tried techniques from multiple notebooks, but the main inspirations for the overall attempt:
 * [Phalanx's 3rd place solution](https://www.kaggle.com/competitions/bengaliai-cv19/discussion/135982)
