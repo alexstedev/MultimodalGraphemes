@@ -1,8 +1,12 @@
 <h1 align="center">
     Multimodal Learning for Handwritten Grapheme Classification <br>
-    <a href="https://www.kaggle.com/c/bengaliai-cv19/overview">![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)</a>
 </h1>
 
+<div align="center">
+
+    <a href="https://www.kaggle.com/c/bengaliai-cv19/overview">![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)</a>
+
+</div>
 
 <div align = "justify">
 
