@@ -2,12 +2,6 @@
     Multimodal Learning for Handwritten Grapheme Classification <br>
 </h1>
 
-<div align="center">
-
-![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)
-
-</div>
-
 <div align = "justify">
 
 **Description:** This repository is a project that constituted a late submission to the [BengaliAI Handwritten Grapheme Classification Challenge](https://www.kaggle.com/c/bengaliai-cv19/overview) on Kaggle.
